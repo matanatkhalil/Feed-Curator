@@ -46,7 +46,8 @@ npm install
 | `npm run lint` | Runs **ESLint** to catch syntax errors and ensure code quality. |
 | `npm run build` | Compiles the extension and prepares it for production. |
 | `npm test` | Executes the test suite (currently a placeholder). |
-| `npm run format`| Uses **Prettier** to automatically format your code style.|
+| `npm run format`| **Fixes** and cleans up your code formatting locally.|
+| `npm run format:check`| **Checks** if code is properly formatted (used in CI). |
 
 ## Project Structure
 - Content Script: Injected into the social media site to find and hide HTML elements.
