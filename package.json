@@ -30,7 +30,8 @@
   },
   "homepage": "https://github.com/matanatkhalil/Feed-Curator#readme",
   "devDependencies": {
-    "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8"
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5"
   }
 }
