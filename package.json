@@ -4,8 +4,10 @@
   "description": "A browser extension that acts as a mental health filter for social media. It doesn't just block keywords; it uses AI to understand the \"vibe\" and \"value\" of posts on LinkedIn and YouTube, hiding content that doesn't align with user goals.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --no-error-on-unmatched-pattern",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "lint": "eslint . --ext .js,.jsx --no-error-on-unmatched-pattern",
+    "format": "prettier --write .",
+    "build": "echo 'Building extension...' && exit 0",
+    "test": "echo 'No tests implemented yet' && exit 0"
   },
   "repository": {
     "type": "git",
