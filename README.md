@@ -24,11 +24,34 @@ Social media algorithms prioritize engagement through outrage, negativity, and "
 - Database: MongoDB (to store user-specific filter settings and cached post scores).
 - Other: OpenAI GPT-4o-mini (for fast text analysis), Cheerio/Puppeteer (for local DOM parsing).
 
+## Installation & Setup
+
+### Prerequisites
+* **Node.js**: Version 18.x or higher.
+* **npm**: Included with Node.js.
+* **Browser**: Chrome or any Chromium-based browser (Edge, Brave).
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/matanatkhalil/Feed-Curator.git
+cd Feed-Curator
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Available Scripts
+| Command | Description |
+| :--- | :--- |
+| `npm run lint` | Runs **ESLint** to catch syntax errors and ensure code quality. |
+| `npm run build` | Compiles the extension and prepares it for production. |
+| `npm test` | Executes the test suite (currently a placeholder). |
+| `npm run format`| Uses **Prettier** to automatically format your code style.|
+
 ## Project Structure
 - Content Script: Injected into the social media site to find and hide HTML elements.
 - Background Service Worker: Handles communication between the extension and the AI server.
 - Classification API: The logic that prompts the AI to "judge" a post's vibe.
-
 
 ## Success Criteria
 - [ ] Extension successfully identifies and hides a "marriage/relationship/self-aggrandizing content" post on LinkedIn.
