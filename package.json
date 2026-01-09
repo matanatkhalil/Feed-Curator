@@ -4,21 +4,26 @@
   "description": "A browser extension that acts as a mental health filter for social media. It doesn't just block keywords; it uses AI to understand the \"vibe\" and \"value\" of posts on LinkedIn and YouTube, hiding content that doesn't align with user goals.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --no-error-on-unmatched-pattern",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "lint": "eslint . --ext .js,.jsx --no-error-on-unmatched-pattern",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "build": "echo 'Building extension...' && exit 0",
+    "test": "echo 'No tests implemented yet' && exit 0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matanatkhalil/Feed-Curator.git"
   },
-  "keywords": ["browser-extension",
-  "ai",
-  "mental-health",
-  "content-filter",
-  "linkedin",
-  "youtube",
-  "machine-learning",
-  "productivity"],
+  "keywords": [
+    "browser-extension",
+    "ai",
+    "mental-health",
+    "content-filter",
+    "linkedin",
+    "youtube",
+    "machine-learning",
+    "productivity"
+  ],
   "author": "Matanat Khalilova",
   "license": "ISC",
   "type": "commonjs",
@@ -27,7 +32,8 @@
   },
   "homepage": "https://github.com/matanatkhalil/Feed-Curator#readme",
   "devDependencies": {
-    "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8"
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5"
   }
 }
